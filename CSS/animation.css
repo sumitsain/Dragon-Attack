@@ -1,0 +1,314 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: skyblue url("../images/road.png");
+	background-size: 1300px 400px;
+	overflow-x: hidden;
+	-webkit-animation: move-city-top 1s infinite linear;
+	-moz-animation: move-city-top 1s infinite linear;
+	animation: move-city-top 1s infinite linear;
+}
+
+header {
+	background: skyblue url("../images/building.jpg");
+	-webkit-animation: move-city-top 5s infinite linear;
+	-moz-animation: move-city-top 5s infinite linear;
+	animation: move-city-top 5s infinite linear;
+	height: 500px;
+	position: relative;
+	border-top: 10px solid #ba2d14;
+	border-bottom: 10px solid #ba2d14;
+}
+
+@-webkit-keyframes move-city-top {from { background-position:0;
+	
+}
+
+to {
+	background-position: 500px;
+}
+
+}
+@-moz-keyframes move-city-top {from { background-position:0;
+	
+}
+
+to {
+	background-position: 500px;
+}
+
+}
+@keyframes move-city-top {from { background-position:0;
+	
+}
+
+to {
+	background-position: 500px;
+}
+
+}
+#rampage {
+	width: 650px;
+	height: 500px;
+	position: absolute;
+	margin-top: 110px;
+	left: 50px;
+	z-index: 3;
+	/* -webkit-animation: shimmy-shimmy-shake 0.5s 1s infinite alternate,show-yourself 1s; */
+}
+
+@-webkit-keyframes shimmy-shimmy-shake {from { left:50px;
+	
+}
+
+to {
+	left: 65px;
+}
+
+}
+@-moz-keyframes shimmy-shimmy-shake {from { left:50px;
+	
+}
+
+to {
+	left: 65px;
+}
+
+}
+@keyframes shimmy-shimmy-shake {from { left:50px;
+	
+}
+
+to {
+	left: 65px;
+}
+
+}
+@-webkit-keyframes show-yourself {from { left:-1000px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+@-moz-keyframes show-yourself {from { left:-1000px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+@keyframes show-yourself {from { left:-1000px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+#coptor {
+	position: absolute;
+	top: 200px;
+	margin-left: 1250px;
+	width: 125px;
+	height: 82px;
+	-webkit-animation: coptorshake 2s 1.5s infinite alternate,
+		coptoryourself 2s 1;
+	-moz-animation: coptorshake 2s 1.5s infinite alternate, coptoryourself
+		2s 1;
+	animation: coptorshake 2s 1.5s infinite alternate, coptoryourself 2s 1;
+	z-index: 50;
+}
+
+.bullet {
+	position: absolute;
+	top: 240px;
+	-webkit-animation: kapow 1s 0.5s linear infinite;
+	-moz-animation: kapow 1s 0.5s linear infinite;
+	animation: kapow 1s 0.5s linear infinite;
+	z-index: 50;
+	width: 10px;
+	height: 5px;
+	background: white;
+}
+
+@-webkit-keyframes kapow {from { left:80%;
+	
+}
+
+to {
+	left: 20%;
+}
+
+}
+@-moz-keyframes kapow {from { left:80%;
+	
+}
+
+to {
+	left: 20%;
+}
+
+}
+@keyframes kapow {from { left:80%;
+	
+}
+
+to {
+	left: 20%;
+}
+
+}
+@webkit-keyframes coptorshake {from { left:-50px;
+	
+}
+
+to {
+	left: 100px;
+}
+
+}
+@-webkit-keyframes coptoryourself {from { left:-900px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+@-webkit-keyframes shake {from { left:50px;
+	
+}
+
+to {
+	left: 65px;
+}
+
+}
+@keyframes coptorshake {from { left:-50px;
+	
+}
+
+to {
+	left: 100px;
+}
+
+}
+@keyframes coptoryourself {from { left:-900px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+@keyframes shake {from { left:50px;
+	
+}
+
+to {
+	left: 65px;
+}
+
+}
+@-moz-keyframes coptorshake {from { left:-50px;
+	
+}
+
+to {
+	left: 100px;
+}
+
+}
+@-moz-keyframes coptoryourself {from { left:-900px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+@-moz-keyframes shake {from { left:50px;
+	
+}
+
+to {
+	left: 65px;
+}
+
+}
+@-webkit-keyframes yourself {from { left:-900px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+@-moz-keyframes yourself {from { left:-900px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+@keyframes yourself {from { left:-900px;
+	
+}
+
+to {
+	left: 50px
+}
+
+}
+#car {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 1140px;
+	width: 300px;
+	height: 150px;
+	z-index: 3;
+	-webkit-animation: shake 0.6s 1.5s infinite alternate, yourself 2s 1;
+	-moz-animation: shake 0.6s 1.5s infinite alternate, yourself 2s 1;
+	animation: shake 0.6s 1.5s infinite alternate, yourself 2s 1;
+}
+
+#car1 {
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 800px;
+	width: 300px;
+	height: 150px;
+	z-index: 3;
+	-webkit-animation: shake 0.7s 1.5s infinite alternate, yourself 2s 1;
+	-moz-animation: shake 0.7s 1.5s infinite alternate, yourself 2s 1;
+	animation: shake 0.7s 1.5s infinite alternate, yourself 2s 1;
+}
+
+#cameraman {
+	position: absolute;
+	margin-top: -113px;
+	margin-left: 1395px;
+	z-index: 3;
+	-webkit-animation: shake 1s 1.5s infinite alternate, yourself 2s 1;
+}
+
+marquee {
+	position: absolute;
+    margin-top: -502px;
+    margin-left: 0px;
+}
