@@ -1,0 +1,55 @@
+a			  { text-decoration: none; color: white; }
+#angular_icon { width: 200px; height: 50px; cursor: default;}
+body          { margin: 0px; font: bold 12px Arial; background: url(cover.png) no-repeat; background-size: 100%;position: fixed;}
+#body-content { width: 1000px; margin-left: 10px; }
+#country_container { width: 940px; margin: 13px 3px 3px 0px; text-align: center; width: 65px; padding: 4px; display: inline-table;  color: white; 
+					 background-color: black; font-size: 12px; cursor: pointer; border: 1px solid black; border-radius:13px; }
+#country_container:hover { box-shadow: 0px 0px 10px black; background-color: gray; border: 1px solid gray; cursor: pointer; }
+#current_time { color:white; margin-left: 10px; text-shadow:5px 5px 5px black;}
+#delete_icon, #edit_icon { width: 25px; height: 23px; }
+#firebase     {height:40px;}
+#footer 	  { background-color: black; color: white; clear: both; text-align: right; padding: 5px; margin-left: 20px; width: 1001px; }
+h2 			  { margin-bottom:0; margin-top: 0; }
+#heading 	  { font-size: 20px; font-weight: bold; margin-bottom: 5px; font-family: Segoe UI, Arial, sans-serif; }
+#header       { background-color: black; color: white; text-align: left; padding: 3px; position: relative; width: 100% }
+hr            { width: 1010px; margin-left: 0px;}
+iframe        { width: 1005px; height: 800px;margin-top: 20px;}
+#home		  { width: 320px; height: 200px; margin-right: 10px;}
+#home:hover   { border: 1px solid green; border-radius:12px; cursor: pointer; box-shadow: 0px 0px 50px gray; z-index: -50;}
+.infoWindowContent { font-size:  14px !important; border-top: 1px solid #ccc; padding-top: 10px; }
+input.ng-invalid.ng-dirty { border: 1px solid red; }
+#json-table th { border: 1px solid lightgray; background-color: #333333; border-collapse: collapse; padding: 5px; box-shadow: 0px 0px 20px gray; }
+#json-table td { border: 1px solid lightgray; border-collapse: collapse; padding: 5px; box-shadow: 0px 0px 20px gray; }
+#json-table tr:nth-child(odd) { background-color: gray; color: white; }
+#json-table tr:nth-child(even){ background-color: #ffffff; }
+#logout_icon   { cursor: pointer; width: 23px; height: 23px; margin-right: 0px;}
+#login_btn     { margin-left: 61px; cursor: pointer;}
+#map           { height:500px; width:1010px; box-shadow: 3px 3px 10px gray;}
+#names { cursor: pointer; }
+#nav_container{ line-height: 25px; margin: 7px 0px 0px 20px; background-color: gray; float: left; padding: 5px; border: 1px solid gray; border-radius: 0px 5px 5px 0px; }
+#nav_icon1,#nav_icon2,#nav_icon3,#nav_icon4,#nav_icon5,#nav_icon6,#nav_icon7,#nav_icon8 { color: white; background-color: black; border: 1px solid black; border-radius:13px; 
+																	margin-bottom: 0px; font-size: 12px; cursor: pointer; display: inline; text-align: center; }
+#nav_icon1:hover,#nav_icon2:hover,#nav_icon3:hover,#nav_icon4:hover,#nav_icon5:hover,#nav_icon6:hover,#nav_icon7:hover,#nav_icon8:hover { border-radius:50px; background-color: BurlyWood;
+																										box-shadow: 0px 0px 10px black; border: 1px solid BurlyWood ;}
+#nav_icon1	  { padding: 5px 56px 5px 5px;}
+#nav_icon2	  { padding: 5px 31px 5px 5px; }
+#nav_icon3	  { padding: 5px 31px 5px 5px; }
+#nav_icon4	  { padding: 5px 5px 5px 5px; }
+#nav_icon5	  { padding: 5px 18px 5px 5px; }
+#nav_icon6	  { padding: 5px 15px 5px 5px; }
+#nav_icon7	  { padding: 5px 15px 5px 5px; }
+#nav_icon8	  { padding: 5px 15px 5px 5px; }
+#register_btn { cursor: pointer;}
+#repeat 	  { display: inline; }
+#search_box   { height:25px; width: 275px; outline: 0; color: black; border: 1px solid #848484; border-radius: 30px; padding-left: 10px; padding-right: 10px; }
+#section 	  { width: 1210px; margin-right: 0px; float: left; padding: 10px; }
+span          { color: red; }
+th			  { background-color: #333333; }
+#thumb        { width: 221px; height:221px;   border: 1px solid gray; box-shadow: 0px 0px 80px gray; margin: 0px 10px 10px 0px;}
+#thumb:hover  { border: 1px solid black; border-radius: 8px; cursor: pointer;}
+.user        { color: black; font-size: 15px; }
+#user-detail-btn { margin-left: 127px; }
+#user-details-in-table { width: 600px; text-align: left; border: 2px solid white; color: white; font-family: Segoe UI,Arial,sans-serif; }
+#validate_btn { margin-left: 108px; }
+#Welcome_msg { font-size: 20px; color: white; }
+#welcome_header { margin-left: 800px; color : white; }
