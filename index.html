@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dragon Attack</title>
+<link rel="stylesheet" href="css/animation.css">
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.slideshow').cycle({
+			fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			speed : 30,
+			timeout : 100
+		});
+	});
+</script>
+</head>
+<body>
+	<audio controls autoplay loop hidden="true">
+		<source src="sound/police-siren.wav" type="audio/wav">
+	</audio>
+	<header>
+		<div class="slideshow">
+			<img src="images/dina3.png" id="rampage"> <img
+				src="images/dina1.png" id="rampage">
+		</div>
+		<marquee>Animated by:- Sumit Sain</marquee>
+		<img src="images/coptor.png" id="coptor"> <span class="bullet"></span>
+	</header>
+
+	<img id="car" src="images/police-car2.png">
+	<img id="car1" src="images/police-car2.png">
+	<img id="cameraman" src="images/cameraman.gif">
+	
+
+</body>
+</html>
